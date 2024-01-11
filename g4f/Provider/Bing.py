@@ -19,7 +19,6 @@ class Tones():
     creative = "Creative"
     balanced = "Balanced"
     precise = "Precise"
-
 class Bing(AsyncGeneratorProvider):
     url = "https://bing.com/chat"
     working = True
