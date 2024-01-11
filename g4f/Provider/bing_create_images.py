@@ -5,10 +5,10 @@ from bs4 import BeautifulSoup
 from urllib.parse import quote
 from typing import Generator
 
-from ..create_images import CreateImagesProvider
-from ..helper import get_cookies, get_event_loop
-from ...webdriver import WebDriver, get_driver_cookies, get_browser
-from ...base_provider import ProviderType
+from .create_images import CreateImagesProvider
+from .helper import get_cookies, get_event_loop
+from ..webdriver import WebDriver, get_driver_cookies, get_browser
+from ..base_provider import ProviderType
 
 BING_URL = "https://www.bing.com"
 
