@@ -11,9 +11,9 @@ from aiohttp import ClientSession, ClientTimeout
 from ..typing import AsyncResult, Messages
 from .base_provider import AsyncGeneratorProvider
 from ..webdriver import get_browser, get_driver_cookies
-from .bing.upload_image import upload_image
-from .bing.create_images import create_images, format_images_markdown, wait_for_login
-from .bing.conversation import Conversation, create_conversation, delete_conversation
+from .bing_upload_image import upload_image
+from .bing_create_images import create_images, format_images_markdown, wait_for_login
+from .bing_conversation import Conversation, create_conversation, delete_conversation
 
 class Tones():
     creative = "Creative"

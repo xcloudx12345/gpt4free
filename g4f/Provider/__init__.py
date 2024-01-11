@@ -8,7 +8,9 @@ from .deprecated      import *
 from .needs_auth      import *
 from .unfinished      import *
 from .selenium        import *
-
+from .bing_upload_image    import upload_image
+from .bing_create_images   import create_images
+from .bing_conversation    import Conversation
 from .Aura            import Aura
 from .AiAsk           import AiAsk
 from .Aichat          import Aichat
