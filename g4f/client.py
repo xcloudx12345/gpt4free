@@ -163,8 +163,9 @@ class Completions():
         return response if stream else next(response)
 
 class Chat():
+    Completions = Completions
     def __init__(self, client: Client, provider: ProviderType = None):
-        self.completions = Completions(client, provider)
+        self.Completions = Completions(client, provider)
 
 class ImageModels():
     gemini = Gemini
